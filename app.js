@@ -93,15 +93,15 @@ function handleScroll() {
         burger.style.position = "fixed";
         burger.style.backgroundColor = "#b73e3e";
         burger.style.top = "20px";
-        navBar.style.position = "absolute";
+        navBar.style.position = "fixed";
         navBar.style.height = "100%";
-        navBar.style.top = y.toString() + "px";
+        navBar.style.top = "0px";
         navBar.style.background = "#b73e3e";
     } else if (y < 450 && x < 767) {
         burger.style.position = "absolute";
         burger.style.backgroundColor = "transparent";
         burger.style.top = "40px";
-        navBar.style.position = "absolute";
+        navBar.style.position = "fixed";
         navBar.style.height = "100%";
         navBar.style.top = "60px";
         navBar.style.background = "linear-gradient(transparent 0%,#b73e3ef8 10%, #b73e3ef8 20%, #b73e3ef8 30%, #b73e3ef8 40%, #b73e3ef8 50%, #b73e3ef8 60%, #b73e3ef8 70%, #b73e3ef8 80%, #b73e3ef8 90%, #b73e3ef8 100%)";

@@ -187,17 +187,21 @@ section#offers {
 }
 section#offers .container-fluid .container {
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 section#offers .head {
+    width: 550px;
     text-align: center;
     color: #fff;
 }
 section#offers .head h3 {
-    width: 400px;
+    width: inherit;
     padding: 10px;
     font-weight: bold;
 }
 section#offers .head p{
+    width: inherit;
     margin-top: 30px;
     font-weight: bold;
     font-size: 13px;
@@ -205,12 +209,15 @@ section#offers .head p{
 section#offers .offers {
     margin: 100px 0;
 }
+section#offers .offers .row {
+    margin: 0;
+}
 section#offers .offers .row .col-md-2 {
     color: #fff;   
     letter-spacing: 2px;
     flex-direction: column;
     margin: 10px;
-    width: 300px;
+    width: 120px;
 }
 section#offers .offers .row .col-md-2 .text p {
     text-align: center;
@@ -404,7 +411,7 @@ section#faq .head {
     }
     header .nav-bar ul {
         flex-direction: column;
-        gap: 0px;
+        gap: 17px;
         margin-top: 160px;
         margin-left: -20px;
     }
@@ -466,6 +473,9 @@ section#faq .head {
     }
     section#offers .offers .row .image {
         width: 350px;
+    }
+    section#offers .offers .row .col-md-2 {
+        width: 300px;
     }
     section#testimonial .body .testimonial {
         width: 100%;
