@@ -125,4 +125,4 @@ function handleScroll() {
             list.style.marginTop = "25px";
         })
     }
-}
+} 

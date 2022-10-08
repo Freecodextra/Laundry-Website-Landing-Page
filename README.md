@@ -28,7 +28,7 @@ I'm a full stack developer. I'm good at front-end and back-end as well. I uses P
 
 ## Screenshots
 
-![App Screenshot](./images/screenshot.jpg)
+![App Screenshot](./images/screenshot.png)
 
 
 
