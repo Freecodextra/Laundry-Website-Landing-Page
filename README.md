@@ -1,5 +1,5 @@
 
-# CRUD Operation With PHP and MYSQL 
+# Laundry Website Landing Page
 
 I made a landing page for a Laundry Company. This single page website has 4 to 5 sections. This includes TESTIMONIALS, HEADER, AMMENITIES, FAQ, and CONTACT
 
@@ -15,7 +15,7 @@ I'm a full stack developer. I'm good at front-end and back-end as well. I uses P
 [Documentation](https://github.com/Freecodextra/Laundary-Wesite-Landing-Page)
 
 ## Live Site
-[Live Site](https://insideabucampus.com.ng/cruds/)
+[Live Site](https://laundy-website-landing-page.netlify.app/)
 
 ## Features
 
