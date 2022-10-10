@@ -266,7 +266,7 @@ section#testimonial .body .testimonial .name .info .rate {
     margin-top: -7px;
 }
 section#testimonial .body .testimonial .name .info .rate i {
-    color: #b73e3e;
+    color: #1746a2;
     font-size: 14px;
 }
 section#testimonial .body .testimonial .name .info .date {
@@ -287,11 +287,11 @@ section#testimonial .footer {
     font-size: 13px;
 }
 section#testimonial .footer p span {
-    color: #b73e3e;
+    color: #1746a2;
     font-weight: bold;
 }
 span.color {
-    color: #b73e3e;
+    color: #1746a2;
 }
 section#faq {
     background-color: #b4cde67c;
@@ -317,7 +317,7 @@ section#faq .head {
    
   .accordion::before {
     content: '\002B';
-    color: #b73e3e;
+    color: #1746a2;
     font-weight: bold;
     top: 0;
     float: left;
@@ -367,7 +367,7 @@ section#faq .head {
     height: 350px;
   }
   footer {
-    background-color: #b73e3e;
+    background-color: #1746a2;
     padding: 70px 20px;
     color: #fff;
     font-size: 12px;
@@ -402,7 +402,7 @@ section#faq .head {
         right: 0;
         height: 100%;
         width: 100%;
-        background: linear-gradient(transparent 0%,#b73e3ef8 10%, #b73e3ef8 20%, #b73e3ef8 30%, #b73e3ef8 40%, #b73e3ef8 50%, #b73e3ef8 60%, #b73e3ef8 70%, #b73e3ef8 80%, #b73e3ef8 90%, #b73e3ef8 100%);
+        background: linear-gradient(transparent 0%,#1746a2f8 10%, #1746a2f8 20%, #1746a2f8 30%, #1746a2f8 40%, #1746a2f8 50%, #1746a2f8 60%, #1746a2f8 70%, #1746a2f8 80%, #1746a2f8 90%, #1746a2f8 100%);
         padding: 20px 0;
         z-index: 1;
     }

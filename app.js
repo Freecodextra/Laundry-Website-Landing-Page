@@ -91,12 +91,12 @@ window.onresize = () => {
 function handleScroll() {
     if (y > 450 && x < 767) {
         burger.style.position = "fixed";
-        burger.style.backgroundColor = "#b73e3e";
+        burger.style.backgroundColor = "#1746a2";
         burger.style.top = "20px";
         navBar.style.position = "fixed";
         navBar.style.height = "100%";
         navBar.style.top = "0px";
-        navBar.style.background = "#b73e3e";
+        navBar.style.background = "#1746a2";
     } else if (y < 450 && x < 767) {
         burger.style.position = "absolute";
         burger.style.backgroundColor = "transparent";
@@ -104,14 +104,14 @@ function handleScroll() {
         navBar.style.position = "fixed";
         navBar.style.height = "100%";
         navBar.style.top = "60px";
-        navBar.style.background = "linear-gradient(transparent 0%,#b73e3ef8 10%, #b73e3ef8 20%, #b73e3ef8 30%, #b73e3ef8 40%, #b73e3ef8 50%, #b73e3ef8 60%, #b73e3ef8 70%, #b73e3ef8 80%, #b73e3ef8 90%, #b73e3ef8 100%)";
+        navBar.style.background = "linear-gradient(transparent 0%,#1746a2f8 10%, #1746a2f8 20%, #1746a2f8 30%, #1746a2f8 40%, #1746a2f8 50%, #1746a2f8 60%, #1746a2f8 70%, #1746a2f8 80%, #1746a2f8 90%, #1746a2f8 100%)";
     } else if (y > 450 && x > 767) {
         navBar.style.position = "fixed";
         navBar.style.top = "0";
         navBar.style.width = "100%";
         navBar.style.height = "30px";
         logo.classList.add("hide");
-        navBar.style.background = "#b73e3e";
+        navBar.style.background = "#1746a2";
         lists.forEach(list => {
             list.style.marginTop = "0";
         })
